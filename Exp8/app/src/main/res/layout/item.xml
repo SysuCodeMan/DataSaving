@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_weight="1"
+        android:id="@+id/Name" />
+
+    <TextView
+        android:id="@+id/Birthday"
+        style="@style/TextStyle"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/Gift"
+        style="@style/TextStyle"
+        android:layout_weight="2"/>
+</LinearLayout>

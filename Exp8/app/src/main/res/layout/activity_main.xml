@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"
+        android:text="增加条目"
+        android:textSize="12pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_weight="1"
+            android:text="姓名" />
+
+        <TextView
+            android:text="生日"
+            style="@style/TextStyle"
+            android:layout_weight="1" />
+        <TextView
+            style="@style/TextStyle"
+            android:text="礼物"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorGray"
+        android:layout_height="1dp" />
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>
